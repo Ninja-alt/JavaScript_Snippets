@@ -1,0 +1,17 @@
+
+const bobsFollowers = ['one','two','three','four'];
+
+const tinasFollowers = ['zero', 'two', 'three'];
+
+const mutualFollowers = [];
+
+for(let i = 0; i < bobsFollowers.length; i++){
+  for (let j = 0; j < tinasFollowers.length; j++){
+
+    if (bobsFollowers[i] === tinasFollowers[j]) {
+      console.log(mutualFollowers.push(tinasFollowers[j]));
+    }
+
+  }
+
+}
